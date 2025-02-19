@@ -21,4 +21,6 @@ typedef enum
 
 bool batallaNaval(EstatTauler taulerInicial[N_FILES][N_COLUMNES], int nIntents, EstatTauler taulerResultat[N_FILES][N_COLUMNES]);
 
+void inicialitzarTauler(EstatTauler taulerInicial[N_FILES][N_COLUMNES]);
+
 #endif
