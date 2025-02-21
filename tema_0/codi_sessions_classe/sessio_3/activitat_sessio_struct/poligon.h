@@ -6,7 +6,8 @@ const int MAX_COSTATS = 30;
 
 typedef struct
 {
-
+	Punt vertexs[MAX_COSTATS];
+	int nCostats;
 } Poligon;
 
 
