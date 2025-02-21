@@ -1,6 +1,8 @@
 #include <iostream>
 using namespace std;
 
+
+//F9 per posar Breakpoint
 int cerca(int v[], int dimensio, int valor)
 {
 	bool trobat = false;
