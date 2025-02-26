@@ -23,4 +23,9 @@ bool batallaNaval(EstatTauler taulerInicial[N_FILES][N_COLUMNES], int nIntents, 
 
 void inicialitzarTauler(EstatTauler taulerInicial[N_FILES][N_COLUMNES]);
 
+void ferMoviment(EstatTauler taulerActual[N_FILES][N_COLUMNES] , int& nIntents);
+
+bool comprovarVaixellEnfonsat(EstatTauler taulerInicial[N_FILES][N_COLUMNES],
+    EstatTauler taulerResultat[N_FILES][N_COLUMNES],
+    int fila, int columna);
 #endif
