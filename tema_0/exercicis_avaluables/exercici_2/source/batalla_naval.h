@@ -21,9 +21,9 @@ typedef enum
 
 bool batallaNaval(EstatTauler taulerInicial[N_FILES][N_COLUMNES], int nIntents, EstatTauler taulerResultat[N_FILES][N_COLUMNES]);
 
-void inicialitzarTauler(EstatTauler taulerInicial[N_FILES][N_COLUMNES]);
+void inicialitza(EstatTauler tauler[N_FILES][N_COLUMNES]);
 
-void ferMoviment(EstatTauler taulerActual[N_FILES][N_COLUMNES] , int& nIntents);
+void mostrarTauler(EstatTauler tauler[N_FILES][N_COLUMNES]);
 
 bool comprovarVaixellEnfonsat(EstatTauler taulerInicial[N_FILES][N_COLUMNES],
     EstatTauler taulerResultat[N_FILES][N_COLUMNES],
