@@ -8,4 +8,6 @@ void afegeixEstudiant(Estudiant estudiants[], int nEstudiants, string nom, strin
 bool afegeixNota(Estudiant estudiants[], int nEstudiants, string niu, float nota);
 float calculaNotaMitjana(Estudiant estudiants[], int nEstudiants, string niu);
 
+// atributos representan el estado del objeto mientras que los metodos corresponderian al behaviour
+//encapsulamos para evitar que otro programa externo pueda cambiar el estado interno del objeto
 #endif
