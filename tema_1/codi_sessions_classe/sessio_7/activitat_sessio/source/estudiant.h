@@ -9,6 +9,11 @@ class Estudiant
 {
 public:
     // Afegir constructors
+    Estudiant() : m_nom(""), m_niu(""), m_nNotes(0) {}
+    Estudiant(string nom, string niu) : m_nom(nom), m_niu(niu), m_nNotes(0) {}
+
+    ~Estudiant();
+   
 
     string getNom() { return m_nom; }
     string getNiu() { return m_niu; }
